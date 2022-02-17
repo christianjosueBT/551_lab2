@@ -1,0 +1,17 @@
+#map {
+  height: 80vh;
+}
+
+#wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#date {
+  order: 1;
+}
+
+.btn {
+  order: 2;
+}
