@@ -9,14 +9,14 @@ L.tileLayer(
     tileSize: 512,
     zoomOffset: -1,
     accessToken:
-      'pk.eyJ1IjoiY2hyaXN0aWFuYmVybmFsIiwiYSI6ImNrbGNtejJxdzJ3eTQydnBlNnJuc3I2cXEifQ.V32yro03000Yc41qqC226g',
+      'ACCESS_TOKEN_HERE',
   }
 ).addTo(map);
 
 const btn = document.getElementById('date');
 
 let baseUrl =
-    'https://data.calgary.ca/resource/c2es-76ed.geojson?$$app_token=LsCgAMajefqUpvGRQlkm2eXqJ',
+    'https://data.calgary.ca/resource/c2es-76ed.geojson?$$app_token=APP_TOKEN_HERE',
   markers = L.markerClusterGroup();
 
 btn.addEventListener('click', function () {
